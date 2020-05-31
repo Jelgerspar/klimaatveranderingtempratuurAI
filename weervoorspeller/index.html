@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/brain.js"></script>
+    <script src="js.js"></script>
+    <script src="dagjaar.js"></script>
+</head>
+<body>
+dag: <input type="number" name="name" id="dagg" value="value" onchange="dagGet()" min="1" max="31" />
+
+<p id="dagNum">Dagnum</p>
+<br>
+maand: <input type="number" name="name" id="maandd" value="value" onchange="maandGet()" min="1" max="12" />
+<br>
+
+<p id="maandNum">Maand</p>
+<br>
+
+
+
+
+jaar: <input type="number" name="name" id="jaarr" value="value" onchange="jaarGet()" min="1901" max="100000"/>
+<br>
+<p id="jaarNum">Jaar</p>
+<br>
+
+<button onclick="go()">go</button>
+
+<br>
+
+<br>
+
+<p id="maxtempratuur"></p>
+
+
+<p id="mintempratuur"></p>
+
+
+<p id="gemtempratuur"></p>
+
+
+<p id="uurzon"></p>
+<p id="zonduur"></p>
+<p id="luchtvocht"></p>
+
+
+<div id="result"></div>
+
+</body>
+</html>
